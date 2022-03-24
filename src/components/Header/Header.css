@@ -1,0 +1,52 @@
+.container{
+    height: 60px;
+    width: 100%;
+    background-color: #A9A9A9;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    color: white;
+    font-weight: 700;
+}
+.logo{
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu p{
+    margin-left: 20px;
+}
+
+
+.search-box{
+    
+    background-color: transparent;
+    border: 0.5px solid black;
+    border-radius: 55px;
+}
+.search-box input{
+    background-color: transparent;
+    border: none;
+    width: 100;
+    outline: none;
+    padding: 0px 10px;
+}
+.search-box button{
+    background-color: transparent;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+    background-color: gray;
+    padding: 5px;
+    border: none;
+    transition: 0.5s;
+}
+.search-box button:hover{
+    background-color: white;
+    color: black;
+}

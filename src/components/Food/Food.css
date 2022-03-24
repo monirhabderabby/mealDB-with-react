@@ -1,0 +1,22 @@
+.custom-card{
+    height: 400px;
+    width: 300px;
+    border: 0.5px solid gray;
+    position: relative;
+    border-radius: 8px;
+}
+.custom-card img{
+    width: 100%;
+}
+.custom-card button{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border: none;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.custom-card button:hover{
+    background-color: orange;
+}

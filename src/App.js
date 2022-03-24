@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Foods from './components/Foods/Foods';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+  const searchFood = () =>{
+    console.log('clicked');
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header searchFood={searchFood}></Header>
+      <Foods></Foods>
     </div>
   );
 }
