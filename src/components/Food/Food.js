@@ -2,7 +2,6 @@ import React from 'react';
 import './Food.css'
 
 const Food = (props) => {
-    console.log(props.food);
     const{ strMeal, strMealThumb } = props.food
 
     

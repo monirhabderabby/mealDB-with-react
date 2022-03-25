@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = ({searchFood}) => {
     return (
-        <div className='container'>
+        <div className='cs-container'>
             <nav className='nav'>
                 <div className='logo'>
                     mealDB
